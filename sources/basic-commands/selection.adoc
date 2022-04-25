@@ -24,38 +24,38 @@ Some FAWE commands require a region selection to work. This command allows you t
 
 This most commonly used selection and is the *default type*. The cuboid selection requires two points to be defined.
 
-image::https://i.imgur.com/vWZJ9Pt.png[sel-cuboid.png]
+image::https://user-images.githubusercontent.com/4140635/165098047-cd1261ad-ccfa-4f38-9967-5821296c774b.png[sel-cuboid]
 
 
 ==== Extend
 
 This is an advanced version of the cuboid selection. After the first two points are defined, the selection can be expanded by defining even more point. The final selection will remain a cuboid.
 
-image::https://i.imgur.com/dcKxjPZ.png[sel-extend.png]
+image::https://user-images.githubusercontent.com/4140635/165098042-ee37d8d2-785b-41ab-8be9-073a96130459.png[sel-extend]
 
 === Poly
 
 With this type you get a geometrical selection with a free polygonal border. The height of the polygon is determined by the Y-coordinate of the highest and lowest positions. An infinite amount of points can be defined. The border connects all corners and is sorted by an incrementing number.
 
-image::https://i.imgur.com/iqC3Cf8.png[sel-poly.png]
+image::https://user-images.githubusercontent.com/4140635/165098045-39f0e8e2-d35f-4d5d-b17b-84c4435865f6.png[sel-poly]
 
 === Ellipsoid
 
 In this selection, your region is an ellipsoid. The `position 1` argument defines the mid-point, the `position 2` argument is used to alter the length, width and height of the ellipsoid.
 
-image::https://i.imgur.com/ZIt64eK.png[sel-ellipsoid.png]
+image::https://user-images.githubusercontent.com/4140635/165098041-991dc50b-e353-47c9-a9c2-355ca2e88eb9.png[sel-ellipsoid]
 
 === Sphere
 
 This selection yields a spherical region. The `position 1` argument defines the mid-point and the `position 2` argument defines the radius.
 
-image::https://i.imgur.com/gmpDkxI.png[sel-sphere.png]
+image::https://user-images.githubusercontent.com/4140635/165098046-ca3e726f-1fc7-4439-b14e-59c567bf71da.png[sel-sphere]
 
 === Cyl
 
 The selection type produces a cylindrical selection. The `position 1` argument defines the mid-point of the cylinder and the `position 2` argument define both the radius and the depth (height) of the cylinder.
 
-image::https://i.imgur.com/XXhLMpB.png[sel-cyl.png]
+image::https://user-images.githubusercontent.com/4140635/165098048-15a3afdc-4960-4c1b-99a8-1a7b8b68b6e1.png[sel-cyl]
 
 === Polyhedron
 
