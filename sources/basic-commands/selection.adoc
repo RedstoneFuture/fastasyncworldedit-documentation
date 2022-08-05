@@ -27,7 +27,7 @@ This most commonly used selection and is the *default type*. The cuboid selectio
 image::https://user-images.githubusercontent.com/4140635/165098047-cd1261ad-ccfa-4f38-9967-5821296c774b.png[sel-cuboid]
 
 
-==== Extend
+=== Extend
 
 This is an advanced version of the cuboid selection. After the first two points are defined, the selection can be expanded by defining even more point. The final selection will remain a cuboid.
 
