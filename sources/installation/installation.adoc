@@ -20,16 +20,13 @@ Make sure your server has been launched with https://adoptium.net/[Java 17].
 [WARNING]
 Do not install WorldEdit! FAWE is a <ins>direct</ins> replacement.
 
-[TIP]
-If you are looking to install FastAsyncVoxelSniper too, https://github.com/IntellectualSites/FastAsyncVoxelSniper[go to this repo].
-
 == Third Party Plugin Support
 
-=== Region Restrictions
-The following plugins are supported:
+=== Region Restrictions Systems
+
+The following region restriction plugins are supported natively by us. Other third party plugins may not be listed:
 
 * https://www.spigotmc.org/resources/factionsuuid.1035/[FactionsUUID]
-* https://dev.bukkit.org/projects/favs[FastAsyncVoxelSniper]
 * https://www.spigotmc.org/resources/68900/[GriefDefender]
 * https://www.spigotmc.org/resources/griefprevention.1884/[GriefPrevention]
 * https://www.spigotmc.org/resources/plotsquared-v6.77506/[PlotSquared v6]
@@ -38,6 +35,11 @@ The following plugins are supported:
 
 [TIP]
 This can be disabled in the config or bypassed with the `/wea` command or the `fawe.bypass` permission.
+
+=== Other Plugins
+
+We also offer an asynchronous version of VoxelSniper that follows the restriction of FAWE:
+https://dev.bukkit.org/projects/favs[FastAsyncVoxelSniper]
 
 == Logging and Rollback
 
