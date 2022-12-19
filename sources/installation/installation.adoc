@@ -28,14 +28,13 @@ If you are looking to install FastAsyncVoxelSniper too, https://github.com/Intel
 === Region Restrictions
 The following plugins are supported:
 
-* PlotSquared
-* WorldGuard
-
-Deprecated plugin support:
-
-* Towny
-* GriefPrevention
-* FactionsUUID
+* https://www.spigotmc.org/resources/factionsuuid.1035/[FactionsUUID]
+* https://dev.bukkit.org/projects/favs[FastAsyncVoxelSniper]
+* https://www.spigotmc.org/resources/68900/[GriefDefender]
+* https://www.spigotmc.org/resources/griefprevention.1884/[GriefPrevention]
+* https://www.spigotmc.org/resources/plotsquared-v6.77506/[PlotSquared v6]
+* https://www.spigotmc.org/resources/towny-advanced.72694/[Towny]
+* https://dev.bukkit.org/projects/worldguard[WorldGuard]
 
 [TIP]
 This can be disabled in the config or bypassed with the `/wea` command or the `fawe.bypass` permission.
